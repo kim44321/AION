@@ -1,6 +1,6 @@
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import Header from "@/components/header";
-import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="">
@@ -166,17 +166,245 @@ export default function Home() {
               <br /> his ability to turn the tide of battle.
             </p>
             <div className="flex flex-row gap-6 pt-8">
-              <button className="font-medium rounded-full px-2 py-2 bg-gradient-to-r from-[#93754D] from-0% via-[#B2986B] via-50% to-[#94764E] to-100% "> <ArrowLeft /></button>
-              <button className="font-medium rounded-full px-2 py-2 bg-gradient-to-r from-[#93754D] from-0% via-[#B2986B] via-50% to-[#94764E] to-100% "> <ArrowRight/> </button>
-              
-
-
+              <button className="font-medium rounded-full px-2 py-2 bg-gradient-to-r from-[#93754D] from-0% via-[#B2986B] via-50% to-[#94764E] to-100% ">
+                {" "}
+                <ArrowLeft />
+              </button>
+              <button className="font-medium rounded-full px-2 py-2 bg-gradient-to-r from-[#93754D] from-0% via-[#B2986B] via-50% to-[#94764E] to-100% ">
+                {" "}
+                <ArrowRight />{" "}
+              </button>
             </div>
           </div>
-          <div className="pl-31 flex flex-row gap-5">
+          <div className="place-self-end flex flex-row gap-5">
             <img src="/images/arcanist.png" />
             <img src="/images/arcanist.png" className="opacity-50" />
             <img src="/images/arcanist.png" className="opacity-20" />
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#000F1F]">
+        <div className=" flex flex-col justify-center items-center p-10">
+          <div className="flex flex-col justify-center items-center p-10 gap-2">
+            {" "}
+            <span className="font-bold text-[#B2986B] text-1xl">
+              EXPLORE CAMBRIA
+            </span>
+            <h1 className="font-bold text-white text-6xl">
+              DISCOVER A <br />
+              NEW WORLD
+            </h1>
+            <p className="text-white text-center ">
+              Journey through the vast reaches of Cambria, where Aion energy
+              shapes the <br />
+              very fabric of the world. Experience immersive quest lines, unlock
+              new regions,
+              <br />
+              and embark on epic roguelike raids.
+            </p>
+          </div>
+
+          <div>
+            <img src="/images/aionmap.png" alt="" className="h-120 w-auto" />
+          </div>
+
+          <div className="p-10">
+            <div className="flex flex-col justify-center items-center ">
+              <span className="text-[#B2986B]">
+                PLAY FOR FREE OR CONNECT YOUR WALLET
+              </span>
+              <h1 className="text-6xl text-white font-bold">
+                BLOCKCHAIN <br /> INTEGRATION
+              </h1>
+              <p className="text-white text-center pt-5">
+                In Aion Rising, blockchain integration is an optional layer of
+                your experience.
+                <br /> Players can connect their wallet to start collecting
+                blockchain rewards, trade
+                <br /> assets, or simply enjoy the game with a regular, free to
+                play account.
+              </p>
+              <div className="grid grid-cols-2 gap-5 p-10">
+                <div>
+                  <img src="images/log1.png" />
+                  <h1 className="text-white font-bold text-3xl pt-4">
+                    SEAMLESS
+                  </h1>
+                  <p className="text-white  pt-4">
+                    Our blockchain implementation is seamless and secure.
+                    <br />
+                    Transactions are abstracted away from the user experience,
+                    <br />
+                    keeping gameplay front and centre where it belongs.
+                  </p>
+                </div>
+                <div>
+                  <img src="images/logo2.png" />
+                  <h1 className="text-white font-bold text-3xl pt-4">
+                    REWARDS
+                  </h1>
+                  <p className="text-white pt-4 ">
+                    Connect your wallet to earn $AION as well as exclusive NFTs{" "}
+                    <br />
+                    such as Cards, Spell Scrolls, Relics and cosmetics across a{" "}
+                    <br />
+                    variety of gameplay modes.
+                  </p>
+                </div>
+                <div>
+                  <img src="images/logo3.png" />
+                  <h1 className="text-white font-bold text-3xl pt-4">
+                    MARKETPLACE
+                  </h1>
+                  <p className="text-white  pt-4">
+                    Our native marketplace offers safe and efficient trading
+                    right <br />
+                    within the game. Enjoy frictionless transactions with
+                    nominal
+                    <br />
+                    gas fees, making it easy to trade your assets.
+                  </p>
+                </div>
+                <div>
+                  <img src="images/logo4.png" />
+                  <h1 className="text-white font-bold text-3xl pt-4">
+                    AION TOKEN
+                  </h1>
+                  <p className="text-white pt-4">
+                    $AION powers our game economy, and is used for all <br />
+                    marketplace and in-game transactions. A significant portion{" "}
+                    <br />
+                    of $AION’s limited supply is reserved for gameplay rewards.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-center p-20">
+                <span className="text-[#B2986B]"> OUR PATH FORWARD</span>
+                <h1 className="text-white font-bold text-6xl pt-2">ROADMAP</h1>
+                <p className="text-white text-center pt-5">
+                  Our roadmap reflects an exciting journey ahead, with a clearly
+                  defined <br />
+                  approach to growing the Aion universe. Post-launch, we are
+                  dedicated to <br />
+                  continuously evolving Aion Rising through major feature
+                  releases, ensuring an <br />
+                  ever-growing adventure for our players.
+                </p>
+              </div>
+              <div className="flex justify-around items-center text-white gap-30">
+                <div className="flex flex-col gap-90">
+                  <img src="images/logo5.png" />
+                  <img src="images/logo6.png" />
+                  <img src="images/logo7.png" />
+                  <img src="images/logo7.png" />
+                </div>
+                <div className="flex flex-col gap-90">
+                  <img src="images/logo5.png" />
+                  <img src="images/logo6.png" />
+                  <img src="images/logo7.png" />
+                  <img src="images/logo7.png" />
+                </div>
+                <div className="flex flex-col gap-90">
+                  <img src="images/logo5.png" />
+                  <img src="images/logo6.png" />
+                  <img src="images/logo7.png" />
+                  <img src="images/logo7.png" />
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-center p-20">
+                <span className="text-[#B2986B] text-2xl">A BIT ABOUT US</span>
+                <h1 className="font-bold text-white text-6xl">OUR TEAM</h1>
+                <p className="pt-5 text-white text-center">
+                  We’re Chainwave Studios, a group of creators and developers
+                  driven by a <br /> simple goal: to build a game we’d love to
+                  play. With a focus on delivering <br /> meaningful gameplay
+                  and player-first design, we’re constantly pushing <br />{" "}
+                  ourselves to bring a top-notch experience to our audience.
+                </p>
+              </div>
+              <div className="flex flex-row gap-5 justify-center items-center">
+                <div>
+                  <img src="/images/marko.png" alt="" className="h-80w-auto" />
+                  <span className="text-white"> TECHNICAL</span>
+                  <h1 className="text-white text-2xl font-bold">Marko Bilal</h1>
+                  <p className="flex flex-row text-[#B2986B]">
+                    Learn more <ArrowRight />
+                  </p>
+                </div>
+                <div>
+                  <img src="/images/zarko.png" alt="" className="h-80w-auto" />
+                  <span className="text-white"> STORY & GAME MECHANICS </span>
+                  <h1 className="text-white text-2xl font-bold">Zarko Bilal</h1>
+                  <p className="flex flex-row text-[#B2986B]">
+                    Learn more <ArrowRight />
+                  </p>
+                </div>
+                <div>
+                  <img src="/images/andre.png" alt="" className="h-80w-auto" />
+                  <span className="text-white"> UX & UI</span>
+                  <h1 className="text-white text-2xl font-bold">
+                    Andre Milanovic
+                  </h1>
+                  <p className="flex flex-row text-[#B2986B]">
+                    Learn more <ArrowRight />
+                  </p>
+                </div>
+                <div>
+                  <img src="/images/thomas.png" alt="" className="h-80w-auto" />
+                  <span className="text-white"> BLOCKCHAIN </span>
+                  <h1 className="text-white text-2xl font-bold">
+                    Thomas Harper
+                  </h1>
+                  <p className="flex flex-row text-[#B2986B]">
+                    Learn more <ArrowRight />
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row p-20 gap-20 items-center">
+                <div>
+                  <h1 className="text-white font-bold text-6xl">
+                    JOIN OUR <br />
+                    COMMUNITY
+                  </h1>
+                  <p className="text-white py-5">
+                    Join our Discord to connect with the dev team and <br />
+                    fellow players. Receive the latest updates, beta
+                    <br /> access, and exclusive pre-launch opportunities.
+                  </p>
+                  <button className="font-medium rounded-lg w-3/7 px-2 py-2 bg-gradient-to-r from-[#93754D] from-0% via-[#B2986B] via-50% to-[#94764E] to-100% ">
+                    Join Now
+                  </button>
+                </div>
+                <div>
+                  <img
+                    src="images/community.png"
+                    alt=""
+                    className="h-100 w-auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container px-10 mx-auto ">
+          <div className=" flex flex-row justify-between items-center py-4">
+            <div>
+              <img src="images/emblem2.png" className="w-auto h-20" />
+            </div>
+            <ul className="text-white flex flex-row gap-4 text-sm ">
+              <li>Home</li>
+              <li>Collections</li>
+              <li>NFT</li>
+              <li>Worlds</li>
+              <li>Litepaper</li>
+              <li>Roadmap</li>
+              <li>Team</li>
+              <li>Community</li>
+            </ul>
+          </div>
+          <div className="w-full h-0.5 border-dashed  bg-gradient-to-r from-[#93754D] from-0% via-[#B2986B] via-50% to-[#94764E] to-100%"></div>
+          <div className="py-6 text-white text-xs flex flex-row justify-between">
+            ©Aion Rising 2024. All rights reserved <div></div>
           </div>
         </div>
       </section>
